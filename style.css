@@ -63,7 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    max-width: 350px;
+    max-width: 280px;
     margin: 0 auto;
 }
 
@@ -83,6 +83,7 @@ body {
 
 .word-input {
     flex: 1;
+    max-width: 200px;
     padding: 10px 12px;
     border: 2px solid #e9ecef;
     border-radius: 8px;
