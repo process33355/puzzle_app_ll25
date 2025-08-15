@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LL Kaartje Verkoop Redenen - Kruiswoordraadsel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-section">
+            <!-- Assignment and Clues Image -->
+            <div class="clues-section">
+                <img src="start.jpg" alt="Assignment and Clues" class="clues-image">
+            </div>
+
+            <!-- Crossword Puzzle Image -->
+            <div class="puzzle-section">
+                <img src="puzzle_cut.jpg" alt="Crossword Puzzle" class="puzzle-image">
+            </div>
+
+            <!-- Simple Text Inputs -->
+            <div class="inputs-section">
+                <h2>Vul de woorden in:</h2>
+                <div class="word-inputs">
+                    <div class="input-group">
+                        <label>1</label>
+                        <input type="text" class="word-input" data-word="1" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>2</label>
+                        <input type="text" class="word-input" data-word="2" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>3</label>
+                        <input type="text" class="word-input" data-word="3" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>4</label>
+                        <input type="text" class="word-input" data-word="4" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>5</label>
+                        <input type="text" class="word-input" data-word="5" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>6</label>
+                        <input type="text" class="word-input" data-word="6" maxlength="12">
+                    </div>
+                    <div class="input-group">
+                        <label>7</label>
+                        <input type="text" class="word-input" data-word="7" maxlength="12">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button id="fillButton" class="btn btn-primary" disabled>Vul In</button>
+            </div>
+
+            <!-- Results Section -->
+            <div id="resultsSection" class="results-section">
+                <div id="mysteryCode" class="result-item">
+                    <h3>Mystery Code:</h3>
+                    <p id="codeDisplay">YOUR MYSTERY CODE = [6*][6*]<strong>25</strong></p>
+                </div>
+                <div id="visitLink" class="result-item">
+                    <h3>Link:</h3>
+                    <p id="linkDisplay">VISIT [6*][1*][7*]<strong>k</strong>[1*]<strong>wi.</strong></strong>[2*/3*][5*]<strong>ore/#</strong>[6*][6*]<strong>25</strong></p>
+                </div>
+                <div id="resultMessage" class="result-message"></div>
+                
+                <!-- Website Button (only shown when correct) -->
+                <div id="websiteButton" class="website-button" style="display: none;">
+                    <button id="visitButton" class="btn btn-success">GO🏆→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
